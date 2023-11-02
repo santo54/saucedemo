@@ -1,0 +1,41 @@
+
+**Conclusiones del Ejercicio de Pruebas E2E en SauceDemo**
+
+En el marco de este ejercicio de pruebas de E2E en el sitio web SauceDemo, se llevaron a cabo pruebas destinadas a verificar la capacidad del sistema para procesar una compra exitosa. A continuación, se resumen los hallazgos y conclusiones obtenidos:
+
+**Hallazgos**:
+- La página de inicio de SauceDemo (https://www.saucedemo.com/) se cargó de manera rápida y sin problemas.
+- El proceso de inicio de sesión con el usuario "standard_user" y la contraseña "secret_sauce" se completó satisfactoriamente.
+- La funcionalidad de agregar productos al carrito de compras funcionó correctamente.
+- El proceso de compra, incluyendo la entrada de información de envío (nombre, apellido y código postal), se ejecutó sin errores.
+- La finalización de la compra se realizó de manera eficiente.
+- Se confirmó que el mensaje "Thank you for your order!" estuvo presente en la página, indicando una compra exitosa.
+
+**Conclusiones**:
+En base a los hallazgos, se concluye lo siguiente:
+- El proceso de compra en SauceDemo se encuentra bien diseñado y funciona sin problemas, lo que garantiza una experiencia de usuario positiva.
+- Las pruebas E2E realizadas en este ejercicio validan que los flujos de compra en el sitio web están funcionando correctamente.
+
+
+En resumen, este ejercicio de pruebas E2E en SauceDemo demuestra la robustez y confiabilidad del sistema para procesar una compra exitosa. Los pasos se llevaron a cabo con éxito, y se puede tener confianza en la calidad y funcionalidad del sitio web para sus usuarios.
+
+**Test Case**
+
+Objetivo: Verificar que un usuario pueda realizar una compra exitosa en el sitio web SauceDemo.
+
+Pasos a seguir:
+
+    Visita la página de https://www.saucedemo.com/
+    Inicia sesión en la plataforma utilizando las siguientes credenciales:
+        Username: "standard_user"
+        Password: "secret_sauce"
+    Agrega 2 productos al carrito de compras.
+    Inicia el proceso de compra haciendo clic en el botón de carrito de compras.
+    Completa el formulario de envío con la siguiente información:
+        Nombre: "Santiago"
+        Apellido: "Agost"
+        Código Postal: "5000"
+    Finaliza la compra.
+    Verifica que la compra se haya realizado con éxito al comprobar que el texto "Thank you for your order!" está presente en la página.
+
+Resultado esperado: Después de completar estos pasos, el usuario debería haber realizado una compra exitosa en SauceDemo, y el mensaje "Thank you for your order!" debería estar presente en la página.
