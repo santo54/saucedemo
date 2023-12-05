@@ -179,7 +179,7 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "cypress:chrome": "cypress run --browser chrome --spec cypress/integration/pom/*.spec.js",
+    "cypress:chrome": "cypress run --browser chrome --spec cypress/e2e/e2e.cy.js",
     "cypress:open": "cypress open"
   },
   "author": "Santiago Agost",
