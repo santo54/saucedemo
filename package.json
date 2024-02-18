@@ -181,6 +181,7 @@
   "scripts": {
     "cypress:chrome": "cypress run --browser chrome --spec cypress/e2e/e2e.cy.js",
     "cypress:open": "cypress open"
+    "test": "cypress open"
   },
   "author": "Santiago Agost",
   "license": "MIT"
